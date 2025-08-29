@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">-
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Siddartha Raj Subedi - Portfolio</title>
+
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#example">Example</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="hero-content">
+            <h1>Hi, I'm Siddartha Raj Subedi</h1>
+            <p class="lead">Junior Full Stack Developer & UI/UX Designer</p>
+            <p class="mb-4">
+              I create beautiful, responsive websites and applications that
+              provide exceptional user experiences.
+            </p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get In Touch</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="Sidharthasubedi.jpg" alt="siddartha raj subedi" class="profile-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="about-text text-center">
+            <p>
+              I'm a passionate full-stack developer, now working as a Junior
+              full-stack developer in creating digital solutions that make a
+              difference. I specialize in modern web technologies and have a
+              keen eye for design.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              contributing to open-source projects, or enjoying a good cup of
+              coffee while reading about the latest industry trends.
+            </p>
+            <p>
+              I believe in writing clean, maintainable code and creating user
+              experiences that are both beautiful and functional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Example Section -->
+  <section id="example" class="section">
+    <div class="container">
+      <h2 class="section-title">Examples</h2>
+
+      <!-- Fullstack Example -->
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-12">
+          <div class="skill-item1 text-center">
+            <h4>What is Full-Stack Development?</h4>
+            <p>
+              Full-Stack Development means building both the front-end (what users see)
+              and the back-end (how the system works).
+              <br><br>
+              <strong>Front-End (Client-Side):</strong> Layout, buttons, forms, images, and styles.
+              Tools: HTML, CSS, JavaScript, React, Angular.
+              <br><br>
+              <strong>Back-End (Server-Side):</strong> Logic, authentication, database connection.
+              Languages: Node.js, Python, Java, PHP.
+              <br><br>
+              <strong>Database:</strong> Stores and organizes data.
+              Examples: MySQL, MongoDB, PostgreSQL.
+            </p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HTML Example -->
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6">
+          <div class="skill-item1 text-center">
+            <h4>What is HTML?</h4>
+            <p>
+              HTML is the backbone of a website. It provides the structure and organizes the content so browsers know
+              what to show and where. Headings, paragraphs, images, links, and lists are all defined using HTML tags.
+              Without it, a webpage would just be a blank canvas. Think of HTML as the blueprint of a house: it lays out
+              the rooms, doors, and windows, giving everything a place to exist. Later, CSS can style it to make it look
+              good, and JavaScript can add interaction, but none of that works properly without HTML holding it all
+              together. It’s simple, essential, and the starting point for every website.
+            </p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <img src="htmlcode.png" alt="HTML Example" class="img-fluid">
+          <div id="html_result" class="Result">Click Here</div>
+        </div>
+      </div>
+
+      <!-- CSS Example -->
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6">
+          <div class="skill-item1 text-center">
+            <h4>What is CSS?</h4>
+            <p>
+              CSS is the part of web development that gives a website its style and personality. If HTML is the skeleton
+              holding everything together, CSS is the skin, clothing, and overall appearance. It lets you control how
+              text looks, what colors are used, how much space elements have, and where things are placed on the page.
+              With CSS, the same plain HTML content can be transformed into something modern, elegant, or playful,
+              depending on the design choices you make. It’s also what makes sites responsive, meaning the layout can
+              adjust automatically for desktops, tablets, and phones without breaking. Beyond basic colors and layouts,
+              CSS adds life to a page through hover effects, transitions, and animations that make buttons, menus, and
+              sections feel interactive. The “cascading” in its name refers to how style rules are applied when there
+              are conflicts—the browser decides which one takes priority based on specificity and order. In short, CSS
+              is what turns a bare-bones webpage into an engaging experience, combining structure with design to create
+              something people actually enjoy using.
+            </p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <img src="csscode.png" alt="CSS Example" class="img-fluid">
+          <div id="css_result" class="Result">Click Here</div>
+        </div>
+      </div>
+
+      <!-- JavaScript Example -->
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6">
+          <div class="skill-item1 text-center">
+            <h4>What is JavaScript?</h4>
+            <p>
+              JavaScript is what makes a website feel alive. HTML gives you the content, CSS makes it look good, and
+              JavaScript makes it do things. It’s the reason buttons react when you click them, menus drop down
+              smoothly, or sections of a page appear and disappear without reloading. With JavaScript you can check a
+              form before it’s submitted, swap out images on the fly, or pull in fresh data from a server so the page
+              updates instantly—like when new messages show up in your inbox without you refreshing. Over time it’s
+              grown far beyond just small tricks in the browser. Today JavaScript is used everywhere, even on the server
+              side with tools like Node.js, which means an entire web app can be built with one language. In simple
+              terms, if HTML is the content and CSS is the style, JavaScript is the energy that brings the page to life
+              and makes it feel like an app instead of a flat document.
+            </p>
+            <br><br>
+            <strong>HTML →</strong> structure (what you see) <br>
+            <strong>CSS →</strong> style (how it looks) <br>
+            <strong>JavaScript →</strong> behavior (what it does)
+            <br><br>
+            Examples: show/hide content, respond to clicks, change styles dynamically, fetch data from a server.
+            </p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <img src="js_code.png" alt="JavaScript Example" class="img-fluid">
+          <div id="js_result" class="Result">Click Here</div>
+        </div>
+      </div>
+
+
+      <!-- Bootstrap Example -->
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6">
+          <div class="skill-item1 text-center">
+            <h4>What is Bootstrap?</h4>
+            <p>
+              Bootstrap is like a toolkit for building websites without starting from scratch. Instead of writing all
+              the CSS and layout code yourself, Bootstrap gives you ready-made components like buttons, forms,
+              navigation bars, and cards that are already styled and responsive. Its grid system makes it easy to
+              organize content into rows and columns, so your site automatically adjusts to desktops, tablets, and
+              phones. On top of that, it comes with small helper classes for spacing, colors, fonts, and alignment,
+              letting you tweak designs quickly. Even interactive elements like sliders, dropdowns, and modals are
+              included, so you can add them without writing extra JavaScript. In short, Bootstrap saves time, keeps your
+              design consistent, and makes your website look polished on any device.
+            </p>
+
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <img src="bootstrap.png" alt="Bootstrap Example" class="img-fluid">
+          <div id="bootstrap_result" class="Result">Click Here</div>
+        </div>
+      </div>
+
+
+      
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills & Expertise</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item text-center">
+            <i class="fab fa-html5 skill-icon"></i>
+            <h4>Frontend Development</h4>
+            <p>HTML5, CSS3, JavaScript, React</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item text-center">
+            <i class="fas fa-server skill-icon"></i>
+            <h4>Backend Development</h4>
+            <p>Python, PHP, MongoDB, MySQL</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-item text-center">
+            <i class="fas fa-mobile-alt skill-icon"></i>
+            <h4>UI/UX Design</h4>
+            <p>Figma, Adobe XD, Responsive Design</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <img src="window_form.jpg" alt="console based form" class="project-img" />
+            <div class="project-content">
+              <h4 class="project-title">Window Form</h4>
+              <p>
+                This Windows Forms app, built in Visual Studio, offers a clean
+                and interactive interface with simple buttons and input
+                fields.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Visual Studio</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <img src="quiz-game.png" alt="Game" class="project-img" />
+            <div class="project-content">
+              <h4 class="project-title">Quiz Game</h4>
+              <p>
+                A fun quiz game that challenges players with interactive
+                questions across different topics and keeps track of scores.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Visual Studio</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <img src="amazon.jpg" alt="Amazon Clone" class="project-img" />
+            <div class="project-content">
+              <h4 class="project-title">Web Development</h4>
+              <p>
+                An Amazon clone e-commerce platform replicating the core
+                functionality of Amazon.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">VS Code</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="contact-info">
+            <h4 class="mb-4">Let's work together!</h4>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong><br />
+                pkit24a.sdt@ismt.edu.np
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <strong>Phone</strong> <br>
+                061-433826
+
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Location</strong><br />
+                Pokhara, Nepal
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form id="contactForm">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required />
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Subject" required />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg w-100">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <div class="social-links mb-3">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+      <p>&copy; 2025 Siddartha Raj Subedi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
